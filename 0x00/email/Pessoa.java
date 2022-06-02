@@ -5,6 +5,6 @@ public class Pessoa {
             return true;
         }
 
-        return false;
+        return true;
     }
 }
