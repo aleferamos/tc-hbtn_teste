@@ -33,12 +33,40 @@ public class Person {
         return name + " " + surname;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public void setAnotherCompanyOwner(boolean anotherCompanyOwner) {
+        this.anotherCompanyOwner = anotherCompanyOwner;
+    }
+
+    public void setPensioner(boolean pensioner) {
+        this.pensioner = pensioner;
+    }
+
+    public void setPublicServer(boolean publicServer) {
+        this.publicServer = publicServer;
+    }
+
     public float getSalary() {
         return salary;
     }
 
     public void setSalary(float salary) {
         this.salary = salary;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public float calculateYearlySalary(){
